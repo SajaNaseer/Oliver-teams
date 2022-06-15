@@ -1,0 +1,190 @@
+ /* X-Small devices (portrait phones, less than 576px) */
+ /* Mobile Screen */
+@media (max-width: 575.98px){
+ /* part1 */
+ .logo{
+ width: 55%;
+}
+
+
+.logo-menue{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+position: absolute;
+top: 33px;
+right: 0px;
+width: 50%;
+text-align: center;
+display: none;
+background: #eaf7f2;
+border-radius: 10px;
+border: #2A9466 solid 1px;
+}
+.menue{
+display: block;  
+}
+.links{
+display: block;
+margin: 10px;
+}
+.head-page:hover .navigation{
+display: block;
+}
+.coloum{
+width: 100%;
+margin-bottom: 20px;
+}
+/* part2 */
+.img-head-part2{
+margin-top: 22px;
+width: 350px;
+}
+.type-img{
+width: 30%;
+margin: auto;
+}
+/* .titel-explore{
+    font-size:0rem;
+} */
+.direction-1{
+width:100%;
+}
+.featurs1{
+width: 100%;
+margin-top: 25px;
+}
+.user-part2{
+flex-direction: column;
+}
+/* part3 */
+/* .what-we-do{
+    flex-direction: column;
+} */
+.together{
+    width: 100%;
+}
+.tow-boxes{
+left: 10px;
+}
+/* part4 */
+.content{
+    width: 100%;
+    margin-top: 15px;
+}
+/* .challeng-project{
+    font-size: 0.5rem;
+} */
+/* part5 */
+/* .steps{
+    flex-direction: column;
+}  */
+.para-hostes{
+padding-top: 0px;
+}
+.content-steps{
+    width: 100%;
+}
+/* part6 */
+.item-persom{
+display: none;
+}
+.details-box-person{
+    width: 100%;
+}
+.middle{
+display: block;
+width: 8%;
+}
+.left{
+    transform: translate(-45px,111px);
+}
+.right {
+    transform: translate(442px,-91px);
+}
+/* part7 */
+
+.typb-build-website{
+    flex-direction: column;
+}
+.website{
+    /* width: 100%; */
+    margin-top: 15px;
+}
+/* part8 */
+.form-content-sales{
+    transform: translate(30%,-25%);
+}
+.input2{
+    width: 100%;
+}
+.enter{
+    width: 100%;
+}
+.btn-sent-massage{
+    padding: 15px 30px;
+}
+.other{
+    width: 100%;
+    margin-top: 20px;
+}
+.last-page{
+    display: block;
+}
+.references{
+    display: block;
+    padding-top: 20px;
+}
+.angle-up-icon{
+    flex-direction: row;
+}
+}
+/* tablet */
+@media (max-width: 991.98px) and  (min-width:575.98px ){ 
+    .featurs1 {
+        width: 550px;
+        height: 500px;
+    }
+    .para-btn-part2 {
+        padding-top: 80px;
+    }
+    .coloum {
+        width: 47%;
+    }
+    .part-one .body-part1 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .para-hostes {
+        padding-top: 80px;
+        width: 62%;
+        margin: auto;
+    }
+    .hidden{
+        display: none;
+    }
+    .typb-build-website .boxes{
+        width: 277px;
+        margin-right: 10px;
+    }
+    .input2{
+        width: 200px;
+    }
+    .enter{
+        width: 506px;
+    }
+    .btn-sent-massage{
+        margin-left: 320px;
+    }
+    .other {
+        width: 25%;
+    }
+    /* .last-page{
+        width: 33%;
+    } */
+    
+
+
+}
